@@ -65,9 +65,6 @@
   "(" @delimiter
   (_)*
   ")" @delimiter @sentinel) @container
-  
-  
-
   ;; Support for enum bodies
 (enum_class_body
   "{" @delimiter
@@ -86,9 +83,6 @@
   "{" @delimiter
   (_)*
   "}" @delimiter @sentinel) @container
-  
-  
-  
   
 ;; Handle nested enum entries with their respective bodies
 (enum_entry
